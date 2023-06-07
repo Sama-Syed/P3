@@ -1,0 +1,84 @@
+.pig
+{
+    display: flex;
+    position: relative;
+}
+.ears{
+    display: flex;
+    flex-direction: row;
+    column-gap: 63.5px;
+    margin-left: 33.05%;
+}
+.lear,.rear{
+    height: 158px;
+    width: 168px;
+    background-color:pink;
+    margin-top: 117px;
+    border-style: solid;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.face
+{
+    height: 500px;
+    width: 500px;
+    background-color:pink;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10%;
+    border-radius: 50%;
+}
+.eyes
+{
+    display :flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 110px;
+    margin-left: 78px;
+}
+.leye, .reye
+{
+    width: 110px;
+    height:110px;
+    background-color: white;
+    border-radius: 50%;
+}
+.small
+{
+    width: 60px;
+    height: 60px;
+    background-color:black;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 26px;
+}
+.mouth
+{
+    width: 230px;
+    height: 110px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius:100px;
+    margin-top: 290px;
+    margin-left: 140px;
+    position: absolute;
+}
+.noses
+{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 170px;
+    margin-top: 20px;
+    margin-left:30px ;
+}
+.n1, .n2
+{
+    width: 60px;
+    height: 60px;
+    background-color:black;
+    border-radius: 50%;
+}
